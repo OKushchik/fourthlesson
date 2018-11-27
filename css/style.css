@@ -1,0 +1,104 @@
+.block1 {
+    background: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.block1:hover {
+    z-index: 2;
+    box-shadow: 3px 3px 25px rgba(0,0,0,61);
+}
+.block1:hover .plus{
+    z-index: 2;
+    transform:rotate(45grad);
+    transition: all 0.15s linear;
+    left: 40%;
+    top:3%;
+}
+.block2 {
+    background: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+}
+.block2:hover{
+    z-index: 2;
+    box-shadow: 3px 3px 25px rgba(0,0,0,61);
+}
+.block2:hover .plus{
+    z-index: 2;
+    transform:rotate(45grad);
+    transition: all 0.15s linear;
+    left: 40%;
+    top:3%;
+}
+.block3 {
+    background:blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -30px;
+}
+.block3:hover{
+    z-index: 3;
+    box-shadow: 3px 3px 25px rgba(0,0,0,61);
+}
+.block3:hover .plus {
+    z-index: 2;
+    transform: rotate(45grad);
+    transition: all 0.15s linear;
+    left: 40%;
+    top:3%;
+}
+
+.block4 {
+    background:yellow ;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:-200px;
+    left:180px;
+    z-index: 1;
+}
+.block4:hover .plus{
+    z-index: 2;
+    transform:rotate(45grad);
+    transition: all 0.15s linear;
+    left: 40%;
+    top:3%;
+}
+.block4:hover{
+    z-index: 3;
+    box-shadow: 3px 3px 25px rgba(0,0,0,61);
+}
+.round {
+    background: gray;
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.gorizontal {
+    background: black;
+    width: 40px;
+    height: 10px;
+
+}
+.vertikal {
+    background: black;
+    width: 10px;
+    height: 40px;
+    position: relative;
+    top:25px;
+    left: 15px;
+}
+.plus {
+    position: absolute;
+    left: 25%;
+    top: -5%;
+    /*transform:rotate(45grad);*/
+}
